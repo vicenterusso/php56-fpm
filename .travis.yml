@@ -1,0 +1,6 @@
+sudo: required
+services: docker
+script:
+  - docker build -t vicenterusso/php56-fpm .
+after_script:
+  - docker images
