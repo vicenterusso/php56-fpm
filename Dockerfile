@@ -47,6 +47,7 @@ RUN apt-get update && apt-get upgrade -y \
     calendar \
     exif \
     gettext \
+    mysql \
     mysqli \
     opcache \
     pdo_mysql \
